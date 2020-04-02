@@ -68,13 +68,15 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  font-family: Dancing Script, sans-serif;
-  font-style: italic;
 }
 
-// .logo-link {
-//   display: block;
-// }
+.logo-link {
+  display: block;
+  font-family: Dancing Script, sans-serif;
+  font-style: italic;
+  padding: 20px;
+  color: #363333;
+}
 
 .top,
 .bottom {
@@ -94,8 +96,31 @@
   transform: translate(2%, 136%);
 }
 
-// .contact-list {
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-// }
+.secondary-nav__list {
+  max-width: 920px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secondary-nav__link {
+  display: block;
+  padding: 5px;
+  font-size: 14px;
+  transition: 0.3s;
+  color: #363333;
+}
+
+.secondary-nav__link:hover,
+.secondary-nav__link:focus {
+  transform: scale(1.05);
+}
+
+.banner {
+  width: 920px;
+  margin-right: auto;
+  margin-left: auto;
+}
