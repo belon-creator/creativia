@@ -132,3 +132,51 @@ body {
 .banner__link:focus {
   background-color: #ff0036;
 }
+
+//about
+
+.container {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #262626;
+  font-weight: 700;
+  text-align: center;
+}
+
+.secondary-title {
+  font-size: 16px;
+  line-height: 22px;
+  color: #505050;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.wrapper-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.wrapper {
+  margin-right: 30px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 22px;
+  color: #505050;
+  font-weight: 400;
+}
+
+.about-features {
+  display: flex;
+}
