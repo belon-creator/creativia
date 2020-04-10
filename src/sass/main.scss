@@ -527,3 +527,24 @@
 .team-list__item:hover .team-overlay {
   opacity: 1;
 }
+
+.skills-list {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.skills-list__item {
+  width: 170px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-list__item:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
