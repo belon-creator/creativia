@@ -434,6 +434,8 @@
 
 .name {
   text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
 .user-features {
@@ -467,4 +469,61 @@
 .user-icon {
   width: 30px;
   margin-right: 10px;
+}
+
+// team
+
+.team-list {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.team-list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-list__item:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+
+.team-list__position {
+  color: #505050;
+  margin: 0;
+}
+
+.img-container {
+  position: relative;
+  transform: translateX(42px);
+}
+
+.team-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 0, 54, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.team-list__item:hover {
+  transform: scale(1.02);
+  box-shadow: 10px 16px 22px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 16px 22px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 16px 22px -5px rgba(0, 0, 0, 0.75);
+}
+
+.team-list__item:hover .name {
+  color: #ff0036;
+}
+
+.team-list__item:hover .team-overlay {
+  opacity: 1;
 }
