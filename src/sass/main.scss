@@ -306,7 +306,7 @@
 // features
 
 .features {
-  padding-bottom: 100px;
+  padding-bottom: 420px;
 }
 
 .img-container {
@@ -383,4 +383,88 @@
   text-transform: uppercase;
   color: #131313;
   font-weight: 600;
+}
+
+// clients
+
+.our-clients {
+  height: 650px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url(../images/photodune-3414776-business-group-m.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.client-title,
+.client-txt {
+  color: #fff;
+  padding-top: 60px;
+  margin-top: 0;
+}
+
+.client-txt {
+  margin-bottom: 90px;
+}
+
+.clients-wrapper {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-title,
+.clients-txt {
+  color: #fff;
+}
+
+.clients-title {
+  text-transform: uppercase;
+}
+
+.clients-txt {
+  margin-bottom: 40px;
+}
+
+.user-photo {
+  border-radius: 50%;
+}
+
+.name {
+  text-transform: uppercase;
+}
+
+.user-features {
+  display: flex;
+}
+
+.user-features-list {
+  width: 570px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.user-features-list__item {
+  width: 270px;
+  height: 100px;
+  background-color: #a4a4a4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-features-list__item:not(:nth-child(2n)) {
+  margin-right: 30px;
+}
+
+.user-features-list__item:not(:nth-last-child(-n + 2)) {
+  margin-bottom: 30px;
+}
+
+.user-icon {
+  width: 30px;
+  margin-right: 10px;
 }
