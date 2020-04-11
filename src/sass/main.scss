@@ -548,3 +548,60 @@
 .skills-list__item:not(:nth-child(4n)) {
   margin-right: 30px;
 }
+
+// services
+
+.services {
+  background-color: #272727;
+  padding-bottom: 100px;
+}
+
+.service-text,
+.service-name {
+  color: #fff;
+}
+
+.service-text {
+  background-color: #333;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-list-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.services-list__item {
+  width: 570px;
+}
+
+.services-list__item:not(:nth-child(2n)) {
+  margin-right: 30px;
+}
+
+.services-list__item:not(:nth-last-child(-n + 2)) {
+  margin-bottom: 50px;
+}
+
+.service-icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+  fill: #fff;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.services-list__item:hover .service-text {
+  background-color: #3d2328;
+}
+
+.services-list__item:hover .service-icon {
+  fill: #ff0036;
+}
