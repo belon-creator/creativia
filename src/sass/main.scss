@@ -718,6 +718,11 @@
   text-align: center;
 }
 
+.blog__link:hover,
+.blog__link:focus {
+  background-color: #ff0036;
+}
+
 .blog-wrapper {
   margin-left: 30px;
 }
@@ -751,4 +756,45 @@
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
+}
+
+// follow
+
+.follow {
+  height: 280px;
+  background-image: url(../images/Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.follow-list,
+.follow-list__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow-list__item {
+  flex-direction: column;
+  align-items: center;
+}
+
+.follow-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.follow-list__item:hover .follow-icon {
+  fill: #ff0036;
+}
+
+.follow-icon {
+  display: block;
+  width: 70px;
+  height: 70px;
+  fill: #fff;
+}
+
+.number {
+  color: #fff;
 }
